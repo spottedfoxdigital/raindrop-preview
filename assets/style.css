@@ -1,0 +1,24 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1b2430;line-height:1.6;background:#fff}
+a{color:#0b5394}.wrap{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.ph-note{background:#fff3cd;color:#5c4400;font-size:.8rem;text-align:center;padding:.35rem}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e3e8ef;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.6rem 1.25rem}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.2rem;color:#0b3a66;text-decoration:none}.brand img{width:26px;height:32px}
+.btn{display:inline-block;padding:.8rem 1.3rem;border-radius:8px;font-weight:700;text-decoration:none;text-align:center}
+.btn-primary{background:#c2410c;color:#fff}.btn-primary:hover{background:#9a3412}
+.btn-ghost{border:2px solid #fff;color:#fff}.btn-sm{padding:.5rem .9rem;font-size:.95rem}
+.hero{background:linear-gradient(135deg,#0b3a66,#1e6fb8);color:#fff;padding:3rem 0}
+.hero h1{font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.2;margin:.2rem 0 1rem}
+.hero p{font-size:1.1rem;max-width:40rem}.cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
+.hero-grid{display:grid;gap:2rem}.photo-ph{border:2px dashed #9fb6cc;border-radius:12px;min-height:200px;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;font-weight:600;color:#3b4b5c;background:repeating-linear-gradient(45deg,#eef3f8,#eef3f8 12px,#e2eaf2 12px,#e2eaf2 24px)}
+section{padding:3rem 0}section h2{font-size:clamp(1.5rem,4vw,2rem);margin:0 0 1rem;color:#0b3a66}
+.alt{background:#f4f7fb}.grid{display:grid;gap:1rem}
+.card{background:#fff;border:1px solid #e3e8ef;border-radius:10px;padding:1.2rem}.card h3{margin:.1rem 0 .4rem;color:#0b3a66;font-size:1.1rem}
+.steps{counter-reset:s;list-style:none;padding:0}.steps li{counter-increment:s;padding-left:3rem;position:relative;margin-bottom:1rem}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:2.2rem;height:2.2rem;border-radius:50%;background:#1e6fb8;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+blockquote{margin:0}.review footer{margin-top:.6rem;font-weight:700;font-size:.95rem}.review .src{font-weight:400;font-size:.8rem;color:#4a5868}
+.towns{display:flex;flex-wrap:wrap;gap:.5rem;padding:0;list-style:none}.towns li{background:#fff;border:1px solid #c9d6e3;border-radius:999px;padding:.3rem .8rem}
+.final{background:#0b3a66;color:#fff;text-align:center}.final h2{color:#fff}
+.site-footer{background:#08243f;color:#d7e3ef;padding:2rem 0;font-size:.95rem}.site-footer a{color:#fff}
+@media(min-width:760px){.hero-grid{grid-template-columns:1.3fr 1fr;align-items:center}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}.hero{padding:4.5rem 0}}
+figure.review{margin:0}.btn-sm{white-space:nowrap}
