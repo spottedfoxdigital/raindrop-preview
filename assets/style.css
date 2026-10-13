@@ -22,3 +22,4 @@ blockquote{margin:0}.review footer{margin-top:.6rem;font-weight:700;font-size:.9
 .site-footer{background:#08243f;color:#d7e3ef;padding:2rem 0;font-size:.95rem}.site-footer a{color:#fff}
 @media(min-width:760px){.hero-grid{grid-template-columns:1.3fr 1fr;align-items:center}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}.hero{padding:4.5rem 0}}
 figure.review{margin:0}.btn-sm{white-space:nowrap}
+.photo{display:block;width:100%;height:auto;border-radius:12px}.card .photo{border-radius:6px;margin-bottom:.8rem;aspect-ratio:4/3;object-fit:cover}
